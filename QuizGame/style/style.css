@@ -1,0 +1,73 @@
+*{
+    font-family: 'Mochiy Pop P One', Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #131313;
+}
+
+img:first-of-type{
+    width: 5%;
+}
+
+h1{
+    color: white;
+    font-size: 1000%;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+p{
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    font-size: 150%;
+}
+
+span{
+    color: red;
+}
+
+div{
+    margin-top: 15%;
+    margin-left: 15%;
+}
+
+a:first-of-type{
+    display:inline-block;
+    width: 20%;
+    padding:20px;
+    border: 3px solid white;
+    border-radius:50px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: all 0.9s;
+    text-align: center;
+    font-size: 30px;
+    margin-right: 30%;
+}
+
+a:hover{
+    background-color: aqua;
+    transform: translateY(-8px) scale(1.02) translateZ(0px);
+}
+
+a:nth-child(2){
+    display:inline-block;
+    width: 20%;
+    padding:20px;
+    border: 3px solid white;
+    border-radius:50px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: all 0.9s;
+    text-align: center;
+    font-size: 30px;
+}
+
+a:nth-child(2):hover{
+    background-color: aqua;
+    transform: translateY(-8px) scale(1.02) translateZ(0px);
+}
